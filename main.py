@@ -130,7 +130,7 @@ html = """
 
         <script>
             let username = null;
-            const ws = new WebSocket("ws://localhost:8000/ws");
+            const ws = new WebSocket("wss://websockets-for-real-time-communication-1.onrender.com/ws");
 
             // Ask for user's name when the page loads
             window.onload = function() {
